@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.mjs",
+    "test:express": "npx nodemon ./index.express.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@pixi/node": "^6.5.0-rc"
+    "@pixi/node": "^6.5.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
